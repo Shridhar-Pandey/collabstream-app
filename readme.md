@@ -5,7 +5,8 @@
 ## Description
 **CollabStream** is a real-time collaboration platform that enables users to share their screens and stream video seamlessly. It includes chat, audio control, and remote management features to enhance online meetings and collaboration.
 
-![Demo](https://github.com/user-attachments/assets/150b6632-b1ae-4327-89b8-35771b7646d5)
+## For demo video please see in the src folder. 
+=
 
 ## Features
 - **Screen Sharing**: Share your screen in real-time with other users.
