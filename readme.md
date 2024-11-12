@@ -46,8 +46,6 @@ This command generates:
 - `private-key.txt`: Your private key.
 - `ca-bundle.txt`: The self-signed certificate.
 
-Make sure these files are located in the project directory (i.e., `D:\Project\webrtc-screenshare-main\webrtc-screenshare-main`).
-
 ---
 
 ## Docker Setup
@@ -64,8 +62,8 @@ Run the Docker container and mount the SSL certificates to the correct paths:
 
 ```powershell
 docker run -it -p 443:443 `
-  -v "D:\Project\webrtc-screenshare-main\webrtc-screenshare-main\private-key.txt:/app/private-key.txt" `
-  -v "D:\Project\webrtc-screenshare-main\webrtc-screenshare-main\ca-bundle.txt:/app/ca-bundle.txt" `
+  -v "<PATH>\private-key.txt:/app/private-key.txt" `
+  -v "<PATH>\ca-bundle.txt:/app/ca-bundle.txt" `
   collabstream-app
 ```
 
