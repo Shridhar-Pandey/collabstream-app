@@ -28,7 +28,7 @@
 
 ### 1. Cloning the Repository
 ```bash
-git clone https://github.com/yourusername/collabstream.git
+git clone https://github.com/Shridhar-Pandey/collabstream.git
 cd collabstream
 ```
 
